@@ -7,7 +7,6 @@
 
 <h1>Add courses to system</h1>
 <p>Specify courses and add it to the database.</p>
-<p>General requirement tags: SCI - science elective, SSH - social science or humanity, UPE - upper level elective</p>
 
 </body>
 
@@ -23,11 +22,16 @@
     <input type="text" id="course" name="course"placeholder="ABC123"><br>
     <label for="prereqs">Prereqs:</label><br>
     <input type="text" id="prereqs" name="prereqs" placeholder="ABC123,DEF456;"><br>
-    <label for="req">Fulfilled requirement:</label><br>
-    <input type="text" id="req" name="req"><br>
-    <input type="button" value="Submit" onclick="addClass()">
+    <label for="course">Days meeting:</label><br>
+    <input type="text" id="days" name="days"placeholder="MoWeFr"><br>
+    <label for="course">Start time:</label><br>
+    <input type="text" id="start" name="start"placeholder="9"><br>
+    <label for="course">End time:</label><br>
+    <input type="text" id="end" name="end"placeholder="11"><br>
+    <input type="button" value="Add Class" onclick="addClass()">
   </fieldset>
 </form>
 </div>
+<a href="schedule.html">Build Schedule</a>
 
 </html>
