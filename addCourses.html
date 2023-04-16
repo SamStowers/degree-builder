@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Setup Courses</title>
+</head>
+<body>
+
+<h1>Add courses to system</h1>
+<p>Specify courses and add it to the database.</p>
+<p>General requirement tags: SCI - science elective, SSH - social science or humanity, UPE - upper level elective</p>
+
+</body>
+
+<div>
+    <script src="_js/addCourses.js"></script>
+</div>
+
+<h1>Add course </h1>
+<div class="form">
+  <!-- <form action="_js/addCourses.js"> -->
+  <fieldset> 
+    <label for="course">Course ID:</label><br>
+    <input type="text" id="course" name="course"placeholder="ABC123"><br>
+    <label for="prereqs">Prereqs:</label><br>
+    <input type="text" id="prereqs" name="prereqs" placeholder="ABC123,DEF456;"><br>
+    <label for="req">Fulfilled requirement:</label><br>
+    <input type="text" id="req" name="req"><br>
+    <input type="button" value="Submit" onclick="addClass()">
+  </fieldset>
+</form>
+</div>
+
+</html>
