@@ -21,3 +21,9 @@ p{
   text-align: center;
   text-decoration: none;
 }
+
+a:link { 
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
