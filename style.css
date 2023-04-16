@@ -20,6 +20,7 @@ p{
   font-size: 16px;
   text-align: center;
   text-decoration: none;
+  display: inline-block;
 }
 
 a:link { 
